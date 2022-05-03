@@ -2,3 +2,38 @@ html{
 padding: 0;
 margin: 0;
 }
+body{
+min-height: 75rem;
+}
+
+.carousel-item img{
+
+	object-fit:cover;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.fondo_1 {
+	background-color: #007481;
+}
+
+.fondo_2{
+
+	background-color:#e68f59fe;
+}
+
+.nav-link {
+	color:#f1f1f1;
+}
+
+.nav-link:hover{
+	color: #c7d591;
+}
+.nav-link:focus{
+	color:#f1f1f1;
+}
+
+#footer {
+
+background-color:#3C474BFC;
+}
