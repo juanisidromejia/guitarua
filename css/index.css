@@ -13,6 +13,10 @@ min-height: 75rem;
 	margin-right:auto;
 }
 
+.header_centrado{
+	margin-left:calc(50% - 223px);
+}
+
 .fondo_1 {
 	background-color: #007481;
 }

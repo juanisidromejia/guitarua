@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	
+	<meta charset="UTF-8">
+	<title>Select</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- Select cursos Id -->
+<main>
+	<!-- <select name="cursos">
+		<option value="javascript">JavaScript</option>
+		<option value="c++">C++</option>
+		<option value="html">Html</option>
+		<option value="css">Css</option>
+	</select> -->
+
+	<input  list="cursos">
+	<datalist id="cursos">
+		<option value="JavaScript"></option>
+		<option value="C++"></option>
+		<option value="Html"></option>
+		<option value="Python"></option>
+	</datalist>
+	<br>
+		<form action="">
+		<label for="nombre">
+			<span>¿Cuál es tu nombre?</span> <input type="text" name="nombre" id="nombre"></label>
+		<label for="correo">
+			<span>¿Cuál es tu correo?</span><input type="email" name="correo" id="correo"></label>
+		<label for="pais">
+			<span>¿De que país es?</span><input type="text" name="pais" id="paos"></label>
+		<label for="cp">
+			<span>¿Cual es tu CP?</span><input type="text" name="cp" id="cp" autocomplete="postal-code"></label>
+	</form>
+</main>
+</body>
+</html>
